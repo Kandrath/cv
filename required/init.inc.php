@@ -9,7 +9,7 @@ define('REQUIRED', ROOT . 'required' . DIRECTORY_SEPARATOR);
 define('SRC', ROOT . 'src' . DIRECTORY_SEPARATOR);
 define('VENDOR', ROOT . 'vendor' . DIRECTORY_SEPARATOR);
 
-// require REQUIRED . 'conf.inc.php';
+require REQUIRED . 'conf.inc.php';
 require VENDOR . 'autoload.php';
 
 // Autoload
